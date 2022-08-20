@@ -1,0 +1,19 @@
+{
+    "env": {
+      "es2020": true,
+      "jest": true,
+      "node": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 2018,
+      "ecmaFeatures": {
+        "spread": true,
+        "jsx": true,
+        "modules": false
+      }
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:prettier/recommended"
+    ]
+}
