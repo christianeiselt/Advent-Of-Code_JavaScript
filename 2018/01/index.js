@@ -1,15 +1,19 @@
+// eslint-disable-next-line no-unused-vars
 const { debug } = require("../../lib/utils");
 
 module.exports.part1 = (input) => {
-    const result = 0;
-    
-    return result;
+  const result = input
+    .split("\n")
+    .map((n) => parseInt(n, 10))
+    .reduce((total, current) => total + current, 0);
+  console.log(result);
+  return result;
 };
 
 module.exports.part2 = (input) => {
-    const result = 0;
-    
-    return result;
+  const result = 0;
+
+  return result;
 };
 
 /* var fs = require("fs");
